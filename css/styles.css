@@ -1,0 +1,527 @@
+*, *:after, *:before {
+    box-sizing: border-box
+}
+body {
+    font-size: 18px;
+    color: #A3C2C7;
+    font-family: 'sofia_prolight', Arial, sans-serif;
+}
+.container {
+    margin: 0 auto;
+}
+nav {
+    background-color: white;
+    max-width: 100%;
+    padding: 1em 0;
+}
+.mainNav {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0;
+}
+.mainNav li {
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+}
+.mainNav li a, .mainNav li a:hover {
+    color: #A3C2C7;
+    text-decoration: none;
+}
+.logo {
+    width: 150px;
+}
+.hamburger {
+    display: none;
+    line-height: .3em;
+}
+.hamburger:before {
+    content: "≡";
+}
+.mobileLogo {
+    display: none;
+}
+.homePage {
+    background-image: url('../images/resilient_hero_image.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    display : -webkit-flex;
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@media screen\0 {
+.homePage {
+ padding-top: 10em;
+    }
+}
+.homePage h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+.introduction {
+    color: white;
+    max-width: 40em;
+    margin: auto;
+}
+.logo {
+    text-align: center;
+}
+.tagline {
+    font-size: 3em;
+    text-align: center;
+}
+.introduction p {
+    text-align: justify;
+}
+.pageHeader {
+    text-align: center;
+    text-transform: uppercase;
+}
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 2.5em 1em;
+}
+.aboutPage {} .problemPage {} .problemBlock {
+    display: inline-block;
+    float: left;
+    max-width: 33%;
+    padding: 2em;
+}
+.stat {
+    font-size: 1.25em;
+    font-weight: bolder;
+}
+.problemBlock p {
+    text-align: center;
+    padding-top: 1em;
+}
+.imageBlock {
+    width: 100%;
+    height: 50px;
+}
+.imageBlock01 {
+    background-image: url('../images/boxes-03.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.imageBlock02 {
+    background-image: url('../images/boxes-01.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.imageBlock03 {
+    background-image: url('../images/boxes-02.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.leftSideProblem {
+    max-width: 20%;
+    float: left;
+}
+.mainProblem {
+    max-width: 40%;
+    float: none;
+    float: none;
+    position: absolute;
+    left: 60%;
+    margin-left: -30%;
+}
+.rightSideProblem {
+    max-width: 20%;
+    float: right;
+}
+.solutionPage {
+    color: white;
+    background-color: #A3C1C9;
+}
+.solutionLogo {
+    display: block;
+    background-color: white;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+.solutionDescription {
+    margin: 0 auto;
+    padding: 2em 1em 3em;
+    text-align: center;
+}
+.solutionPage article {
+    border: 3px solid white;
+    margin-bottom: 3em;
+}
+.solutionPage h3 {
+    text-align: center;
+}
+.storyBlock {
+    float: left;
+    float: left;
+    max-width: 50%;
+    text-align: center;
+    padding: 1em 2em 2em 2em;
+}
+.whatDoesPage {
+    background-image: url('../images/lion.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+.yellow {
+    background-color: rgba(245, 196, 0, .7);
+}
+.whatDoesPage h2 {
+    padding-bottom: 1em;
+}
+.services {
+    padding-bottom: 4em;
+}
+.service {
+    font-size: .8em;
+    float: left;
+    width: 21%;
+    margin-right: 5%;
+    margin-top: 5%;
+    min-height: 160px;
+    color: white;
+    background-color: #A3C1C9;
+    padding: 1em;
+    display: table;
+}
+.lastP {
+    margin-right: 0;
+}
+.service p {
+    height: 100%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.aboutPage {
+    background-color: #F5C400;
+    padding: 2em;
+    color: white;
+}
+.aboutInfo {
+    max-width: 100%;
+    padding: 0 2em 2em 2em;
+    text-align: center;
+}
+.aboutInfo h3 {
+    color: #A3C1C9;
+    font-weight: bolder;
+    border-top: 2px solid #F5C400;
+    padding-top: 1em;
+    font-style: italic;
+    text-align: center;
+}
+.aboutInfo h3:nth-child(1) {
+    border-top: none;
+    padding-top: 0;
+}
+.contactPage {
+    background-color: #F5C400;
+}
+.contactPage h3 {
+    color: white;
+}
+form {
+    margin: 3em 0;
+}
+.messageSide {
+    width: 66%;
+    float: left;
+    padding: 0 3em 0 0;
+}
+.message {
+    height: 300px;
+    width: 100%;
+}
+.dataSide {
+    width: 33%;
+    float: left;
+    height: 300px;
+}
+.name, .email, .test, .submit {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 6%;
+    padding-left: 5%;
+}
+input, textarea {
+    border-radius: 3px;
+    border: none;
+}
+.submit {
+    background-color: #A3C1C9;
+    color: white;
+}
+footer {
+    font-size: .75em;
+    width: 100%;
+}
+.footCol {
+    width: 33%;
+    float: left;
+    border-right: 2px solid #A3C2C7;
+    margin: 2em 0;
+}
+.bottomLogo {
+    float: left;
+}
+.footNav {
+    float: right;
+    list-style-type: none;
+    line-height: 1.5em;
+    padding: 0;
+    width: 50%;
+}
+.footNav li a, .footNav li a:hover {
+    color: #A3C2C7;
+    text-decoration: none;
+}
+.socialMedia {
+    text-align: center;
+    height: 107px;
+    padding: 2.5em 0;
+}
+.footCol:last-child {
+    text-align: right;
+    padding-left: 4em;
+    vertical-align: middle;
+    border-style: none;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.goup-text {
+    color: #F5C400;
+}
+/* MOBILE STYLES */
+
+@media screen and (max-width: 479px) {
+    .wrapper {
+        padding: 1.5em;
+    }
+    nav {
+        display: none;
+    }
+    .mobileLogo {
+        display: inline-block;
+        width: 100%;
+        background-color: white;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .mobileLogo img {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .hamburger {
+        display: inline-block;
+        font-size: 2em;
+        text-decoration: none;
+        position: absolute;
+        right: 0px;
+        padding: 1rem;
+        margin-top: .5rem;
+        color: #A3C1C9;
+    }
+    /* OPTIONAL NAVIGATION
+
+    .navigation {
+        float: left;
+        float: left;
+        position: absolute;
+        right: 0;
+        margin-top: 30px;
+        padding: 0;
+        background: gray;
+    }
+    */
+    
+    .mainNav {
+        padding: 0;
+    }
+    .mainNav li {
+        display: block;
+        padding: .5em;
+        width: 100%;
+    }
+    .homePage {
+        padding: 1em;
+    }
+    .tagline {
+        font-size: 2em;
+    }
+    .storyBlock {
+        max-width: 100%;
+    }
+    .solutionDescription {
+        max-width: 100%;
+    }
+    .solutionInfo {
+        max-width: 100%;
+    }
+    .problemBlock {
+        max-width: 100%;
+    }
+    .aboutInfo {
+        max-width: 100%;
+    }
+    .extraAboutInfo {
+        float: none;
+        max-width: 100%;
+    }
+    .extraAboutInfo p {
+        max-width: 50%;
+        padding: .5em;
+        float: left;
+    }
+    .service {
+        float: left;
+        width: 40%;
+        margin: 5%;
+        min-height: 170px;
+        color: white;
+        background-color: #A3C1C9;
+        padding: 1em;
+    }
+    .service {
+        font-size: .8em;
+    }
+    .whatDoesPage {
+        background-position: right -200px center;
+    }
+    .messageSide, .dataSide {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+    }
+    .name {
+        margin-top: 2em;
+    }
+    .footCol:first-child {
+        margin-top: 0;
+    }
+    .footCol {
+        width: 100%;
+        float: none;
+        border: none;
+    }
+    .bottomLogo {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-top: 3em;
+    }
+    .footNav {
+        padding-top: 2em;
+        margin-bottom: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .footCol:nth-child(3) {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+}
+/* STYLES TO RESET JAVASCRIPT FUNCTIONS */
+
+@media screen and (min-width: 480px) {
+    nav {
+        display: block !important;
+    }
+    .logo {
+        display: inline-block !important;
+    }
+}
+/* TABLET DESIGN */
+
+@media screen and (min-width: 480px) and (max-width: 800px) {
+    header {
+        font-size: .7em;
+    }
+    .logo {
+        width: 90px;
+    }
+    .logo img {
+        width: 90px;
+        height: 90px;
+    }
+    .problemBlock {
+        padding: 1em;
+    }
+    .stat {
+        font-size: 1em;
+        text-decoration: underline;
+    }
+    .service {
+        width: 40%;
+        margin: 5%;
+    }
+    .service p {
+        font-size: 1.5em;
+    }
+    footer {
+        font-size: 50%;
+    }
+    .footCol {
+        width: 40%;
+        border-style: none;
+    }
+    .bottomLogo img {
+        height: 75px;
+        width: 75px;
+    }
+    .socialMedia {
+        height: 75px;
+    }
+    .socialMedia img {
+        height: 30px;
+    }
+    .footCol:nth-child(2) {
+        width: 20%;
+        border-right: 2px solid #A3C2C7;
+        border-left: 2px solid #A3C2C7;
+    }
+}
+/*INTERMEDIATE TABLET/MOBILE STYLES */
+
+@media screen and (min-width: 480px) and (max-width: 700px) {
+    .service {
+        font-size: .7em;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 650px) {
+    .problemBlock {
+        float: none;
+        display: block;
+        padding: 2em;
+        max-width: 100%;
+    }
+    .imageBlock {
+        width: 50%;
+        margin: 0 auto;
+        height: 50px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    .service {
+        font-size: .6em;
+        min-height: 190px;
+    }
+}
